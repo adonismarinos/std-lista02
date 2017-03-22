@@ -1,0 +1,83 @@
+    1  mkdir projeto
+    2  cd projeto/
+    3  ls
+    4  la -la
+    5  mkdir p-java
+    6  mkdir p-c
+    7  rm -rf *
+    8  ls
+    9  ls -la
+   10  cd ..
+   11  rm -rf projeto/
+   12  ls -la
+   13  git clone https://github.com/adonismarinos/std-lista02
+   14  ls 
+   15  cd std-lista02/
+   16  ls
+   17  la -la
+   18  alias git-tree="git log --decorate --graph --all --oneline"
+   19  git-tree
+   20  git pull https://github.com/adonismarinos/std-lista02
+   21  git-tree
+   22  git fetch origin master
+   23  git-tree
+   24  la -ls
+   25  ls
+   26  cd p-java/
+   27  vi hello.java
+   28  ls
+   29  javac hello.java 
+   30  vi hello.java
+   31  javac hello.java 
+   32  vi hello.java
+   33  ls
+   34  javac hello.java 
+   35  ls
+   36  mv hello.java Hello.java
+   37  ls
+   38  javac Hello.java 
+   39  java Hello 
+   40  git fetch 
+   41  git-tree 
+   42  git pull origin master
+   43  git push origin master
+   44  cd ..
+   45  git add *
+   46  git commit -m "add o Hello.java"
+   47  git config --global user.name "Pedro Hames"
+   48  git config --global user.email "pedro.hamess@gmail.com"
+   49  git commit -m "add o Hello.java"
+   50  git push origin master
+   51* 
+   52  git push origin master
+   53  git-tree
+   54  git checkout -b dev
+   55  git-tree
+   56  git branch 
+   57  gedit p-java/Readme.md 
+   58  add p-java/Readme.md
+   59  GIT add p-java/Readme.md
+   60  git add p-java/Readme.md
+   61  sit status
+   62  git status 
+   63  git commit -m "editado o Readme do java"
+   64  git status 
+   65  gedit .gitignore 
+   66  git status
+   67  add .gitignore
+   68  git add .gitignore 
+   69  git commit -m "mudado o .gitignore"
+   70  git checkout master 
+   71  git branch 
+   72  cat p-java/Readme.md
+   73  git-tree 
+   74  git merge dev 
+   75  cat p-java/Readme.md
+   76  git-tree 
+   77  git branch -d dev 
+   78  git-tree 
+   79  git pull origin master 
+   80  git push origin master 
+   81  git-tree
+   82  history 
+   83  history >> comandos2.txt
